@@ -1,0 +1,23 @@
+# Carpetas y archivos de Python que no queremos subir
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de entorno virtual (si lo usas)
+venv/
+.env/
+
+# Archivos de Jupyter Notebook (si decides crear uno)
+.ipynb_checkpoints/
+
+# Archivos de logs o temporales
+*.log
+*.tmp
